@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&display=swap');
+
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.2;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+a { text-decoration: none; }
+
+/* Utility Classes */
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 10px;
+}
+
+.large {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.display-1 { 
+  font-size: 6rem; 
+  font-weight: 900;
+}
+
+.display-2 { 
+  font-size: 4rem; 
+  font-weight: 200;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  padding: 13px 20px;
+  cursor: pointer;
+}
+
+.btn-light {
+  background: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+.btn-dark {
+  background: #000000;
+  color: #ffffff;
+  border: 2px solid #000000;
+}
+
+.btn-dark:hover,
+.btn-light:hover {
+  background: #fefaea;
+  color: #000000;
+}
+
+.btn-w100{
+  width: 200px;
+}
+
+.bk-main {
+  background: #fefaea;
+}
+
+.pt-1 { padding-top: 10px;}
+.pb-1 { padding-bottom: 10px;}
+.pt-2 { padding-top: 20px;}
+.pb-2 { padding-bottom: 20px;}
+.pt-5 { padding-top: 50px;}
+.pb-5 { padding-bottom: 50px;}
+
+/* Showcase Main */
+#showcase-main {
+  height: 100vh;
+}
+
+.showcase-description {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 250px 0px;
+}
+
+.showcase-description h4 {
+  /* font-size: 1.8rem; */
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.showcase-image {
+  float: right;
+  padding: 190px 60px;
+}
+
+/* Header */
+#navbar a{
+  color: #000000;
+}
+
+#navbar .logo {
+  float: left;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Showcase */
+#showcase {
+  text-align: center;
+}
+
+#showcase h1 {
+  padding-bottom: 30px;
+}
+
+#showcase p {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+#showcase img {
+  height: 500px;
+}
+
+/* Feature 1 */
+.feature-1-img {
+  float: left;
+}
+
+.feature-1-img img {
+  height: 500px;
+}
+
+.feature-1-title h1 {
+  float: right;
+  text-align: right;
+  width: 50%;
+  padding-top: 110px;
+}
+
+/* Feature 2 */
+.feature-2-img {
+  float: right;
+}
+
+.feature-2-img img {
+  height: 500px;
+}
+
+.feature-2-title h1 {
+  float: left;
+  text-align: left;
+  width: 50%;
+  padding-top: 110px;
+}
+
+/* About */
+#about {
+  text-align: center;
+}
+
+#about h1 {
+  padding-bottom: 20px;
+}
+
+#about p.large{
+  padding-bottom: 30px;
+}
+
+.about-title {
+  float: left;
+  text-align: left;
+  width: 40%;
+}
+
+.about-description {
+  float: right;
+  width: 60%;
+  text-align: left;
+}
+
+/* Footer */
+#mainfooter {
+ text-align: center;
+}
+
+#mainfooter p {
+  padding-top: 18px;
+}
